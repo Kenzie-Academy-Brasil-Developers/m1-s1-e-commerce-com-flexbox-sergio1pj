@@ -2,7 +2,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        color: #2D2D2D;
+        color: #000;
         text-decoration: none;
         outline: none;
         border: none;
@@ -43,7 +43,7 @@
     .menu-nav ul {
         display: flex;
         list-style: none;
-        gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+        gap: 10px; 
       }
   
     .menu-nav ul li a {
