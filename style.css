@@ -41,4 +41,10 @@
         align-items: center;
         border-radius: 4px;
       }
+      
+      .products-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+  }
     
