@@ -82,7 +82,7 @@
         margin-bottom: 16px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
     } 
 
     .product-card-image{
