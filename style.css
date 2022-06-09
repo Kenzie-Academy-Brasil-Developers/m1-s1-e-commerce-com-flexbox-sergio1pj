@@ -1,4 +1,4 @@
-    html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
+    html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section, button{
         margin: 0;
         padding: 0;
         list-style: none;
@@ -60,6 +60,10 @@
         border-radius: 4px;
     }
 
+    .logo{
+        font-size: 24px;
+    }
+
    .products-wrapper{
         display:flex;
         flex-wrap: wrap;
@@ -92,13 +96,11 @@
     }
 
     .product-card-info h3{
-        font-size: 18px;
         font-weight: bold;
         margin-bottom: 10px;
     }
 
     .product-card-info p{
-        font-size: 14px;
         font-weight: bold;
         margin-bottom: 10px;
     }
@@ -109,7 +111,6 @@
         border: none;
         padding: 10px;
         border-radius: 4px;
-        font-size: 14px;
         font-weight: bold;
         cursor: pointer;
     }
