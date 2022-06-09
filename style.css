@@ -100,9 +100,12 @@
     }
 
     .product-card-info{
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
     }
-
+  
     .product-card-info h2{
         font-weight: 600;
         margin-bottom: 20px;
